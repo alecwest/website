@@ -19,16 +19,16 @@
 
     <!-- Fullpage.js CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css" integrity="sha256-uFXU+L9l27b7Sf4aMJg21jb/8NalxQwRzBWFoQ6t46s=" crossorigin="anonymous" />
-    
+
     <!-- Google ReCAPTCHA -->
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
     <style>
         /* Sections
          * --------------------------------------- */
@@ -99,16 +99,16 @@
       <span class="glyphicon glyphicon-download"></span> My Resume
     </a>
 </div>
-    
+
 <div id="fullpage">
     <div class="section active" id="section0">
         <img src="images/self.png" id="self" class="img-responsive"/>
         <h1>Alec West</h1>
         <h3>Tennessee Tech University '19</h3>
-    </div>
-    
+    </div> <!-- section0 -->
+
     <div class="section" id="section1">
-        
+
         <div class="slide">
             <div class="row slideHeader">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
@@ -118,17 +118,17 @@
             </div>
             <div class="row slideContent">
                 <div class="col-xs-6 col-sm-6 col-md-3 col-md-offset-3">
-                    <p>My name is Alec West and I am a junior studying Computer Science at Tennessee Tech University. While my interests fall more into the back-end/low-level area of things, I have found myself taking on just about any project thrown at me. I already have one co-op semester under my belt (two more to go) and am currently in a research internship with the school's computer science department.</p>
+                    <p>My name is Alec West and I am a junior studying Computer Science at Tennessee Tech University. While my interests fall more into the back-end/low-level area of things, I have found myself taking on just about any project thrown at me. I already have two co-op semesters under my belt and am currently in a research internship with the school's computer science department.</p>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3">
-                    <p>I'm a person with a "can-do" attitude and overall desire to get stuff done right. Some of my personal strengths include being adaptable, open minded, and organized. When I'm not typing away at school or work, I'm often found playing card/board/video games with friends, playing cello with the University Orchestra, visiting family back in Chattanooga, or trying to raise my pug, Becky.</p>
+                    <p>I'm a person with a "can-do" attitude and overall desire to get stuff done right. Some of my personal strengths include being adaptable, open minded, and organized. When I'm not typing away at school or work, I'm often found playing card/board/video games with friends, playing cello with the University Orchestra, visiting family in Chattanooga, or trying to raise my pug, Becky.</p>
                 </div>
             </div>
 
         </div> <!-- section1 slide0 -->
-        
+
         <div class="slide">
-            
+
             <div class="row slideHeader">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
                     <h1>Work Experience</h1>
@@ -142,7 +142,7 @@
                         <li class="workListItem workListItem0">
                             <h3>PELI Compass Research Internship</h3>
                             <!-- TODO Make 'Current' automatically update once I graduate -->
-                            <h4>2017 - Current</h4>
+                            <h4>2017 - <span id="graduated">Current</span></h4>
                         </li>
                         <li type="li" class="workListItem workListItem1">
                             <h3>Adtran Co-op</h3>
@@ -160,13 +160,13 @@
                             <h3>Math Tutor</h3>
                             <h4>2014 - 2015</h4>
                         </li>
-                    </ul    >
+                    </ul>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3">
                     <ul class="workList">
                         <li class="workListContent workListItem0">
                             <p>
-                                PELI is a research/design project aimed to help improve nursing homes by providing helpful insight into residential preferences through machine learning. With the help of Ruby on Rails, our team is working to make this possible.
+                                PELI is a research/design project aimed to help improve nursing homes by providing helpful insight into residential preferences through machine learning. With the help of Ruby on Rails, our team is working to make this possible. My role on this team has ranged from front-end design changes to login management to building and maintaining the continuous development environment.
                             </p>
                         </li>
                         <li class="workListContent workListItem1">
@@ -192,11 +192,11 @@
                     </ul>
                 </div>
             </div>
-            
+
         </div> <!-- section1 slide1 -->
-        
+
         <div class="slide">
-            
+
             <div class="row slideHeader">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
                     <h1>Education</h1>
@@ -209,25 +209,26 @@
                         <li><h3>Tennessee Tech University</h3></li>
                         <li><h4>Class of 2019</h4></li>
                         <li><h4>Major - Computer Science</h4></li>
-                        <li><h4>GPA - 3.94</h4></li>
+                        <li><h4>GPA - 3.96</h4></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3">
                     <ul>
                         <li><h3>Classes Taken</h3></li>
-                        <li><h4>Object Oriented Programming</h4></li>
+                        <li><h4>Artificial Intelligence</h4></li>
+                        <li><h4>Networks</h4></li>
+                        <li><h4>Intro to Assembly</h4></li>
                         <li><h4>Database Management and Design</h4></li>
                         <li><h4>Ethics and Professionalism</h4></li>
-                        <li><h4>Unix Lab</h4></li>
                         <li><h4>Intro to Probability &amp; Statistics</h4></li>
                     </ul>
                 </div>
             </div>
-            
+
         </div> <!-- section1 slide2 -->
-        
+
         <div class="slide">
-            
+
             <div class="row slideHeader">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
                     <h1>Volunteer Work</h1>
@@ -246,16 +247,16 @@
                             <h4>2015</h4>
                         </li>
                         <li class="volunteerListItem">
-                            <h3>Cellist with Closed Door Entertainment</h3>
-                            <h4>2015</h4>
+                            <h3>Played in Quartets for Chattanooga Elementary Schools</h3>
+                            <h4>2013 - 2015</h4>
                         </li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3">
                     <ul class="volunteerList">
                         <li class="volunteerListItem">
-                            <h3>Played in Quartets for Chattanooga Elementary Schools</h3>
-                            <h4>2013 - 2015</h4>
+                            <h3>Cellist with Closed Door Entertainment</h3>
+                            <h4>2015</h4>
                         </li>
                         <li class="volunteerListItem">
                             <h3>String Theory Youth Initiative Website Management</h3>
@@ -268,13 +269,13 @@
                     </ul>
                 </div>
             </div>
-        
+
         </div> <!-- section1 slide3 -->
-        
+
     </div> <!-- section1 -->
-    
+
     <div class="section" id="section2">
-        
+
         <div class="row slideHeader">
             <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
                 <h1>My Projects</h1>
@@ -285,15 +286,15 @@
             <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-3">
                 <ul class="projectList">
                     <li class="projectListItem projectListItem0">
-                        <h3>Coursera Machine Learning Course</h3>
-                        <h4>Summer 2017</h4>
+                        <h3>IBM's Master the Mainframe 2017</h3>
+                        <h4>Fall 2017</h4>
+                    </li>
+                    <li class="projectListItem projectListItem2">
+                        <h3>IRC Chatbot</h3>
+                        <h4>Summer/Fall 2017</h4>
                     </li>
                     <li class="projectListItem projectListItem1">
                         <h3>Weekly Study Room Reservations</h3>
-                        <h4>Spring 2017</h4>
-                    </li>
-                    <li class="projectListItem projectListItem2">
-                        <h3>Notes to Flash Card Converter</h3>
                         <h4>Spring 2017</h4>
                     </li>
                     <li class="projectListItem projectListItem3">
@@ -306,17 +307,17 @@
                 <ul class="projectList">
                     <li class="projectListContent projectListItem0">
                         <p>
-                            Due to scheduling conflicts, I am unable to take the class offered by TTU, so I decided instead to take it online over the summer.
+                            During my spare time (aka the beginning and end of the semester), I dedicated time to getting a basic understanding of IBM's mainframe and z/OS. I was introduced to the general workings of the operating system as well as integrations of languages I'm already familiar with, as well as less familiar languages such as JCL, COBOL, and REXX.
+                        </p>
+                    </li>
+                    <li class="projectListContent projectListItem2">
+                        <p>
+                            Over the summer I found that a great way for me to get experience in a new language was by creating a chat bot. After finding a JavaScript-based bot framework on GitHub, I was able to quickly begin development on a <a href="https://github.com/AFTERWAKE/IRCBots/tree/master/dad">DadBot</a>. Over the Fall, I decided to tackle learning GoLang as well, and ported <a href="https://github.com/alecwest/godaddyirc">DadBot</a> over using a different framework with a much cleaner design.
                         </p>
                     </li>
                     <li class="projectListContent projectListItem1">
                         <p>
                             I wrote and scheduled the execution of a python script that reserves a study room for me on two pre-selected days and times.
-                        </p>
-                    </li>
-                    <li class="projectListContent projectListItem2">
-                        <p>
-                            This script converted class note text files into term/definition type note cards.
                         </p>
                     </li>
                     <li class="projectListContent projectListItem3">
@@ -327,10 +328,10 @@
                 </ul>
             </div>
         </div>
-        
+
     </div> <!-- section2 -->
-    
-    <div class="section" id="section3">
+
+    <!-- <div class="section" id="section3">
 
         <div class="row slideHeader">
             <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
@@ -361,9 +362,9 @@
                 </form>
             </div>
         </div>
-    
-    </div> <!-- section3 -->
-    
+
+    </div> --> <!-- section3 -->
+
 </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -396,7 +397,7 @@
             responsiveSlides: true,
             responsiveSlidesKey: 'YWx2YXJvdHJpZ28uY29tX3RoVWNtVnpjRzl1YzJsMlpWTnNhV1JsY3c9PUVZdg==',
             afterResponsive: function(isResponsive){
-                
+
             }
         });
     });
